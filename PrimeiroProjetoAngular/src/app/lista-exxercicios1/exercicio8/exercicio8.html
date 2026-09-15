@@ -1,0 +1,8 @@
+<input [(ngModel)]="Produto">
+<input [(ngModel)]="Preco">
+<input [(ngModel)]="Quantidade">
+
+<p>Produto: {{ Produto }}!</p>
+<p>Preço: {{ Preco }}!</p>
+<p>Quantidade: {{ Quantidade }}!</p>
+<p>Total: {{ Total | currency:'BRL' }}!</p>
