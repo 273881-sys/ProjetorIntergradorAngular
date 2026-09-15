@@ -1,0 +1,7 @@
+<button (click)="adicionar()">
+    +
+</button>
+<button [disabled]="quantidade === 0" (click) ="subtrair()">
+    -
+</button>
+<p>Quantidade: {{ quantidade }}</p>
